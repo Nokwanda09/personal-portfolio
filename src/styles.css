@@ -91,7 +91,8 @@ a:hover {
 }
 
 .about-me,
-.skills {
+.skills,
+.certifications {
   border-top: 1px solid #e2dcdc;
   margin: 0 auto;
   max-width: 70%;
@@ -113,4 +114,15 @@ a:hover {
   margin: 10px;
   padding: 10px;
   
+}
+
+.certifications ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.certifications ul li{
+  border: 1px solid black;
+  width: 500px;
 }
