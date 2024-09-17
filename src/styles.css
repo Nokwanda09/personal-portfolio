@@ -15,7 +15,7 @@ img {
   border-radius: 100%;
 }
 
-a {
+.communication{
   text-decoration: none;
   border: 1px solid #c4bbbb;
   padding: 8px;
@@ -25,6 +25,12 @@ a {
   font-weight: bolder;
   background-color: #c4bbbb;
   color: black;
+}
+
+h2{
+  /* text-align: left; */
+  text-decoration: underline;
+  font-size: 30px;
 }
 
 a:hover {
@@ -55,7 +61,6 @@ a:hover {
 }
 
 .nav-bar {
-  /* background-color: saddlebrown; */
   font-weight: bolder;
   padding-top: 20px;
 }
@@ -66,10 +71,6 @@ a:hover {
 }
 
 .picture-col {
-  /* background-color: aquamarine; */
-  /* float: right; */
-  /* margin-top: -100px; */
-
   margin-right: 350px;
 }
 
@@ -86,4 +87,12 @@ a:hover {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+.about-me{
+  border-top:1px solid #ece5e5;
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: center;
+  padding: 100px;
 }
