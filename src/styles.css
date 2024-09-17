@@ -15,7 +15,8 @@ img {
   border-radius: 100%;
 }
 
-.communication{
+.communication,
+.technical-skills li, .soft-skills li {
   text-decoration: none;
   border: 1px solid #c4bbbb;
   padding: 8px;
@@ -27,7 +28,7 @@ img {
   color: black;
 }
 
-h2{
+h2 {
   /* text-align: left; */
   text-decoration: underline;
   font-size: 30px;
@@ -89,10 +90,27 @@ a:hover {
   justify-content: space-between;
 }
 
-.about-me{
-  border-top:1px solid #ece5e5;
+.about-me,
+.skills {
+  border-top: 1px solid #e2dcdc;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 70%;
   text-align: center;
   padding: 100px;
+}
+
+.technical-skills, .soft-skills{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 300px 0 10px; */
+  font-size: 20px;
+
+}
+
+.technical-skills li,
+.soft-skills li{
+  margin: 10px;
+  padding: 10px;
+  
 }
