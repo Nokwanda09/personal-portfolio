@@ -16,7 +16,8 @@ img {
 }
 
 .communication,
-.technical-skills li, .soft-skills li {
+.technical-skills li,
+.soft-skills li {
   text-decoration: none;
   border: 1px solid #c4bbbb;
   padding: 8px;
@@ -100,29 +101,55 @@ a:hover {
   padding: 100px;
 }
 
-.technical-skills, .soft-skills{
+.technical-skills,
+.soft-skills {
   list-style: none;
   display: flex;
   justify-content: space-between;
   /* padding: 0 300px 0 10px; */
   font-size: 20px;
-
 }
 
 .technical-skills li,
-.soft-skills li{
+.soft-skills li {
   margin: 10px;
   padding: 10px;
-  
 }
 
-.certifications ul{
+.certifications ul {
+  padding-top: 20px;
   display: flex;
   list-style: none;
   justify-content: space-evenly;
 }
 
-.certifications ul li{
+.certifications ul li {
   border: 1px solid black;
   width: 500px;
+}
+
+.certifications ul li div {
+  font-weight: bolder;
+}
+
+.certifications ul li p {
+  font-size: 15px;
+}
+
+.certifications ul li div a{
+  text-decoration: none;
+  color: black;
+}
+
+.certifications ul li{
+  padding: 7px;
+  border: none;
+}
+
+.one-class{
+  background-color: #c4bbbb;
+}
+
+.two-class{
+  background-color: #d5d4d0;
 }
