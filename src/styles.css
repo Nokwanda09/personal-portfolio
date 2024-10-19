@@ -35,8 +35,8 @@ h2 {
   font-size: 30px;
 }
 
-h1{
-    margin-bottom: 0;
+h1 {
+  margin-bottom: 0;
 }
 
 .nav-bar ul {
@@ -121,7 +121,6 @@ h1{
   justify-content: space-evenly;
 }
 
-
 .odd-column div,
 .even-column div {
   font-weight: bolder;
@@ -133,7 +132,8 @@ h1{
 }
 
 .odd-column div a,
-.even-column div a {
+.even-column div a,
+.nav-bar li a {
   text-decoration: none;
   color: black;
 }
@@ -156,20 +156,12 @@ h1{
   list-style: none;
 }
 
-.communication img{
+.communication img {
   width: 40px;
 }
 
-.communication img:hover{
-  width: 45px;
-}
-
-.intro-col p{
+.intro-col p {
   font-size: 20px;
-}
-
-.title a:hover {
-  color: white;
 }
 
 .icons-in-projects {
@@ -177,6 +169,18 @@ h1{
   justify-content: right;
 }
 
-.icons-in-projects li{
+.icons-in-projects li {
   margin: 10px;
+}
+
+.title a:hover {
+  color: white;
+}
+
+.communication img:hover {
+  width: 45px;
+}
+
+.nav-bar li a:hover{
+  font-size: larger;
 }
