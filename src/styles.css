@@ -14,7 +14,6 @@ img {
   border-radius: 100%;
 }
 
-.communication,
 .soft-skills li {
   text-decoration: none;
   border: 1px solid #c4bbbb;
@@ -33,17 +32,12 @@ img {
 }
 
 h2 {
-  /* text-align: left; */
-  /* text-decoration: underline; */
   font-size: 30px;
 }
 
-a:hover {
-  background-color: #ecdcdc;
+h1{
+    margin-bottom: 0;
 }
-/* h1{
-    margin: 10px;
-} */
 
 .nav-bar ul {
   list-style: none;
@@ -127,37 +121,62 @@ a:hover {
   justify-content: space-evenly;
 }
 
-.certifications ul li {
-  border: 1px solid black;
-  width: 500px;
-}
 
-.certifications ul li div {
+.odd-column div,
+.even-column div {
   font-weight: bolder;
 }
 
-.certifications ul li p {
+.odd-column p,
+.even-column p {
   font-size: 15px;
 }
 
-.certifications ul li div a {
+.odd-column div a,
+.even-column div a {
   text-decoration: none;
   color: black;
 }
 
-.certifications ul li {
-  padding: 7px;
+.odd-column,
+.even-column {
+  padding: 20px;
   border: none;
 }
 
-.one-class {
-  background-color: #c4bbbb;
+.odd-column {
+  background-color: #ececec;
 }
 
-.two-class {
+.even-column {
   background-color: #d5d4d0;
 }
 
 .projects ul {
   list-style: none;
+}
+
+.communication img{
+  width: 40px;
+}
+
+.communication img:hover{
+  width: 45px;
+}
+
+.intro-col p{
+  font-size: 20px;
+}
+
+.title a:hover {
+  color: white;
+}
+
+.icons-in-projects {
+  display: flex;
+  justify-content: right;
+}
+
+.icons-in-projects li{
+  margin: 10px;
 }
