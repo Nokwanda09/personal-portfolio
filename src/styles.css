@@ -104,7 +104,6 @@ h1 {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  /* padding: 0 300px 0 10px; */
   font-size: 20px;
 }
 
@@ -148,9 +147,6 @@ h1 {
   background-color: #ececec;
 }
 
-.even-column {
-  background-color: #d5d4d0;
-}
 
 .projects ul {
   list-style: none;
