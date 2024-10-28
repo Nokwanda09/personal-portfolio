@@ -6,85 +6,112 @@
     <title>Singabenkosi Mpungose</title>
 
     <link rel="stylesheet" href="src/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="nav-bar">
-      <p class="fullname">Singabenkosi Nokwanda Mpungose</p>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </div>
-
-    <ul class="intro">
-      <li>
-        <div class="intro-col">
-          <h1>
-            Hello, I am Singabenkosi <br />
-            Nokwanda Mpungose.
-          </h1>
-          <p>Software Engineering Student</p>
-          <ul>
-            <li>
-              <a
-                href="src/SN  Mpungose.pdf"
-                target="_blank"
-                class="communication"
-                ><img
-                  src="src/logo/cv-file-interface-symbol-svgrepo-com.svg"
-                  alt=""
-              /></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Singabenkosi Mpungose</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
             </li>
-            <li>
-              <a
-                href="https://github.com/Nokwanda09"
-                target="_blank"
-                class="communication"
-                ><img src="src/logo/github-142-svgrepo-com.svg" alt=""
-              /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/singabenkosi-mpungose-b9009a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                target="_blank"
-                class="communication"
-                ><img src="src/logo/linkedin-svgrepo-com.svg" alt=""
-              /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certifications</a>
             </li>
-            <li>
-              <a
-                href="mailto:mpungosesingabenkosi@gmail.com"
-                target="_blank"
-                class="communication"
-                ><img  src="src/logo/211660_email_icon.svg" alt=""
-              /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
           </ul>
         </div>
-      </li>
-      <li>
-        <div class="row">
-          <div class="picture-col">
-            <img
-              class="my-picture"
-              src="src/mainpicture.jpg"
-              alt=""
-              width="300px"
-            />
-          </div>
-        </div>
-      </li>
-    </ul>
+      </div>
+    </nav>
 
-    <section class="about-me" id="about">
+    <section class="new-section">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 text-center">
+          <h1>
+            Hello, <br />
+            I am Singabenkosi Nokwanda Mpungose.
+          </h1>
+          <p class="occupation">Software Engineering Student</p>
+
+          <span class="p-3">
+            <a href="src/SN  Mpungose.pdf" target="_blank" class="communication"
+              ><img
+                src="src/logo/cv-file-interface-symbol-svgrepo-com.svg"
+                alt=""
+            /></a>
+          </span>
+
+          <span class="p-3">
+            <a
+              href="https://github.com/Nokwanda09"
+              target="_blank"
+              class="communication"
+            >
+              <img src="src/logo/github-142-svgrepo-com.svg" alt="" /></a
+          ></span>
+
+          <span class="p-3">
+            <a
+              href="https://www.linkedin.com/in/singabenkosi-mpungose-b9009a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              class="communication"
+              ><img src="src/logo/linkedin-svgrepo-com.svg" alt=""
+            /></a>
+          </span>
+
+          <span class="p-3"
+            ><a
+              href="mailto:mpungosesingabenkosi@gmail.com"
+              target="_blank"
+              class="communication"
+            >
+              <img src="src/logo/211660_email_icon.svg" alt="" />
+            </a>
+          </span>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            class="img-fluid rounded-circle"
+            src="src/mainpicture.jpg"
+            alt=""
+            width="300px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="new-section" id="about">
       <h2>About me</h2>
 
       I’m currently a student at WeThinkCode_, where I’m being trained to become
@@ -118,26 +145,56 @@
       reading, which helps me unwind.
     </section>
 
-    <section class="skills" id="skills">
+    <section class="new-section" id="skills">
       <h2>Skills</h2>
-      <ul class="technical-skills">
-        <li><img src="src/logo/python.svg" alt="" /></li>
-        <li><img src="src/logo/java.svg" alt="" /></li>
-        <li><img src="src/logo/javascript.svg" alt="" /></li>
-        <li><img src="src/logo/html.svg" alt="" /></li>
-        <li><img src="src/logo/css.svg" alt="" /></li>
-        <li><img src="src/logo/git-icon-logo-svgrepo-com.svg" alt="" /></li>
-        <li><img src="src/logo/api-svgrepo-com.svg" alt="" /></li>
-        <li><img src="src/logo/database-svgrepo-com.svg" alt="" /></li>
-        <li><img src="src/logo/docker.svg" alt="" /></li>
-      </ul>
+      <div class="row">
+        <div class="col">
+          <img src="src/logo/python.svg" alt="" class="technical-skills" />
+        </div>
+        <div class="col">
+          <img src="src/logo/java.svg" alt="" class="technical-skills" />
+        </div>
+        <div class="col">
+          <img src="src/logo/javascript.svg" alt="" class="technical-skills" />
+        </div>
+        <div class="col">
+          <img src="src/logo/html.svg" alt="" class="technical-skills" />
+        </div>
+        <div class="col">
+          <img src="src/logo/css.svg" alt="" class="technical-skills" />
+        </div>
+        <div class="col">
+          <img
+            src="src/logo/git-icon-logo-svgrepo-com.svg"
+            alt=""
+            class="technical-skills"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="src/logo/api-svgrepo-com.svg"
+            alt=""
+            class="technical-skills"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="src/logo/database-svgrepo-com.svg"
+            alt=""
+            class="technical-skills"
+          />
+        </div>
+        <div class="col">
+          <img src="src/logo/docker.svg" alt="" class="technical-skills" />
+        </div>
+      </div>
     </section>
 
-    <section class="certifications" id="certifications">
+    <section class="new-section" id="certifications">
       <h2>Certifications & Achievements</h2>
 
-      <ul>
-        <li class="odd-column">
+      <div class="row">
+        <div class="col-sm-3">
           <div class="title">
             <a
               href="https://www.shecodes.io/certificates/609e1e80c2ab5a569121c1ced60536d2"
@@ -154,8 +211,8 @@
             equipped me with the skills to create feature-rich websites that
             connect to real-time data sources.
           </p>
-        </li>
-        <li class="even-column">
+        </div>
+        <div class="col-sm-3">
           <div class="title">
             <a
               href="https://www.shecodes.io/certificates/0222722025f01c9f7fab22665008eccc"
@@ -172,8 +229,8 @@
             combining these skills to develop a dynamic and engaging user
             experience.
           </p>
-        </li>
-        <li class="odd-column">
+        </div>
+        <div class="col-sm-3">
           <div class="title">
             <a
               href="https://www.credly.com/badges/a6ba650b-e418-4f4b-8c29-9adce9427f14/linked_in_profile"
@@ -192,8 +249,8 @@
             market for data roles and the key skills needed to excel in this
             field.
           </p>
-        </li>
-        <li class="even-column">
+        </div>
+        <div class="col-sm-3">
           <div class="title">
             Semester_2_Top_50 Medallion issued by WeThinkCode_
           </div>
@@ -205,79 +262,79 @@
             experience further honed my ability to excel in a fast-paced,
             challenging learning environment.
           </p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="new-section" id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li class="odd-column">
-          <div class="title">
-            <a href="https://singabenkosimpungose.netlify.app/" target="_blank"
-              >Personal Portfolio</a
-            >
-          </div>
-          <p>
-            The Personal Portfolio project is a web application designed to
-            showcase my skills, projects, and achievements as a software
-            developer. The portfolio serves as a central hub where potential
-            employers and collaborators can view my work, read about the
-            technologies I use, and get in touch with me. The project is built
-            using HTML, CSS, and JavaScript to ensure a responsive and visually
-            appealing user experience. The site is hosted on Netlify, leveraging
-            continuous deployment to ensure updates are live instantly.
-          </p>
-          <ul class="icons-in-projects">
-            <li><img width="50px" src="src/logo/html.svg" alt="" /></li>
-            <li><img width="50px" src="src/logo/css.svg" alt="" /></li>
-            <!-- <li><img width="50px" src="src/logo/javascript.svg" alt="" /></li> -->
-            <li>
-              <img width="50px" src="src/logo/netlify-svgrepo-com.svg" alt="" />
-            </li>
-          </ul>
-        </li>
-        <li class="even-column">
-          <div class="title">
-            <a href="https://lnkd.in/dzRaPqWj" target="_blank">Weather App</a>
-          </div>
-          <p>
-            The Weather App is a user-friendly web application that provides
-            real-time weather updates for any location worldwide. Users can
-            search for a city or use their current location to receive detailed
-            information, including temperature, weather conditions, humidity,
-            and wind speed. The app is built using HTML, CSS, and JavaScript for
-            a seamless and responsive interface. It fetches live weather data
-            from the OpenWeatherMap API, ensuring accurate and up-to-date
-            information. The application is designed with a modern UI, featuring
-            dynamic icons and background changes that reflect the current
-            weather conditions. It is hosted on Netlify, allowing for fast
-            loading times and easy access across devices.
-          </p>
-          <ul class="icons-in-projects">
-            <li><img width="50px" src="src/logo/html.svg" alt="" /></li>
-            <li><img width="50px" src="src/logo/css.svg" alt="" /></li>
-            <li><img width="50px" src="src/logo/javascript.svg" alt="" /></li>
-            <li>
-              <img width="50px" src="src/logo/netlify-svgrepo-com.svg" alt="" />
-            </li>
-            <img width="50px" src="src/logo/api-svgrepo-com.svg" alt="" />
-          </ul>
-        </li>
-        <li class="odd-column">
-          <div class="title">To-do List <small>(In progress)</small></div>
-          <p>
-            A Task Management App is a productivity tool that runs on linux. It
-            is designed to helps users organize, track, and manage tasks. It
-            allows them to create, update, prioritize, and categorize tasks
-            based on importance and deadlines.
-          </p>
-          <ul class="icons-in-projects">
-            <li><img width="50px" src="src/logo/java.svg" alt="" /></li>
-            <li><img width="50px" src="src/logo/json-file-svgrepo-com.svg" alt="" /></li>
-          </ul>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="title">
+          <a href="https://singabenkosimpungose.netlify.app/" target="_blank"
+            >Personal Portfolio</a
+          >
+        </div>
+        <p>
+          The Personal Portfolio project is a web application designed to
+          showcase my skills, projects, and achievements as a software
+          developer. The portfolio serves as a central hub where potential
+          employers and collaborators can view my work, read about the
+          technologies I use, and get in touch with me. The project is built
+          using HTML, CSS, and JavaScript to ensure a responsive and visually
+          appealing user experience. The site is hosted on Netlify, leveraging
+          continuous deployment to ensure updates are live instantly.
+        </p>
+        <ul class="icons-in-projects">
+          <li><img width="50px" src="src/logo/html.svg" alt="" /></li>
+          <li><img width="50px" src="src/logo/css.svg" alt="" /></li>
+          <!-- <li><img width="50px" src="src/logo/javascript.svg" alt="" /></li> -->
+          <li>
+            <img width="50px" src="src/logo/netlify-svgrepo-com.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="title">
+          <a href="https://lnkd.in/dzRaPqWj" target="_blank">Weather App</a>
+        </div>
+        <p>
+          The Weather App is a user-friendly web application that provides
+          real-time weather updates for any location worldwide. Users can search
+          for a city or use their current location to receive detailed
+          information, including temperature, weather conditions, humidity, and
+          wind speed. The app is built using HTML, CSS, and JavaScript for a
+          seamless and responsive interface. It fetches live weather data from
+          the OpenWeatherMap API, ensuring accurate and up-to-date information.
+          The application is designed with a modern UI, featuring dynamic icons
+          and background changes that reflect the current weather conditions. It
+          is hosted on Netlify, allowing for fast loading times and easy access
+          across devices.
+        </p>
+        <ul class="icons-in-projects">
+          <li><img width="50px" src="src/logo/html.svg" alt="" /></li>
+          <li><img width="50px" src="src/logo/css.svg" alt="" /></li>
+          <li><img width="50px" src="src/logo/javascript.svg" alt="" /></li>
+          <li>
+            <img width="50px" src="src/logo/netlify-svgrepo-com.svg" alt="" />
+          </li>
+          <img width="50px" src="src/logo/api-svgrepo-com.svg" alt="" />
+        </ul>
+      </div>
+      <div class="row">
+        <div class="title">To-do List <small>(In progress)</small></div>
+        <p>
+          A Task Management App is a productivity tool that runs on linux. It is
+          designed to helps users organize, track, and manage tasks. It allows
+          them to create, update, prioritize, and categorize tasks based on
+          importance and deadlines.
+        </p>
+        <ul class="icons-in-projects">
+          <li><img width="50px" src="src/logo/java.svg" alt="" /></li>
+          <li>
+            <img width="50px" src="src/logo/json-file-svgrepo-com.svg" alt="" />
+          </li>
+        </ul>
+      </div>
     </section>
   </body>
 </html>
